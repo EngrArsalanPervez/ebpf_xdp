@@ -123,4 +123,6 @@ sudo xdp-loader unload -a eth1
 ### More Data Paths
 1. **Calico eBPF Data Plane**: Calico offers support for multiple data planes, including standard Linux, Windows HNS, and Linux eBPF. Compared to the standard Linux networking data plane, Calico’s eBPF data plane scales to higher throughput, uses less CPU per GBit, and has native support for Kubernetes services (without needing kube-proxy).
 
-2. More Data Paths coming in future
+2. CNDP
+
+3. More Data Paths coming in future

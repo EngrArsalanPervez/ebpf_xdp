@@ -4,6 +4,7 @@
 
 #include <bpf/bpf_helpers.h>
 #include <linux/bpf.h>
+#include <sys/socket.h>
 
 SEC("xdp_drop")
 
